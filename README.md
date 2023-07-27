@@ -3,8 +3,8 @@
 This project aims to build a machine learning model that can recognize celebrities' faces from images. The code uses the Python programming language and various libraries, including OpenCV, NumPy, scikit-learn, and matplotlib.
 
 <h3> Preprocessing:</h3>
-1) Detect Face and Eyes: The code uses the Haar Cascade classifier from OpenCV to detect faces and eyes in an image. It processes each image to find faces, and then for each detected face, it checks if there are at least two eyes visible. If two eyes are detected, it considers the face suitable for further processing.
-2) Crop the Facial Region: Once a face with two eyes is detected, the code crops the facial region of the image and saves it.
+1) Detect Face and Eyes: The code uses the Haar Cascade classifier from OpenCV to detect faces and eyes in an image. It processes each image to find faces, and then for each detected face, it checks if there are at least two eyes visible. If two eyes are detected, it considers the face suitable for further processing.<br>
+2) Crop the Facial Region: Once a face with two eyes is detected, the code crops the facial region of the image and saves it.<br>
 3) Wavelet Transform: The code applies the wavelet transform to the cropped face region, resulting in a transformed image that enhances the edges, such as the eyes, nose, and lips.
 <br>
 <h3>Dataset Creation:</h3>
